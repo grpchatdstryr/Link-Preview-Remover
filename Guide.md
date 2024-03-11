@@ -2,6 +2,7 @@
 
 ## Link Preview Remover
 
+<<<<<<< HEAD:01_Guide.md
 This is a guide on how to remove link previews from your favorite apps like Discord, Instagram, and other sites. Since this is at the website level, the link preview checkers cannot tell what website it goes because it uses Javascript to redirect 3 times. This guide is pretty straight forward as long as you have a GitHub account can can create files. 
 
 ### Basic Structure:
@@ -26,10 +27,15 @@ Main Folder: Location where all files are stored
 
 
 ### First File (index.html)
+=======
+
+
+>>>>>>> parent of f4d197e (Draft of Final):Guide.md
 ``` html
 <script>
-    window.location.href = 'https://grpchatdstryr.github.io/Link-Preview-Remover/Redirect1.html';
+    window.location.href = 'https://GitHub_Username.github.io/Project_Folder/File.html';
 </script>
+<<<<<<< HEAD:01_Guide.md
 ```
 
 Basics of How it Works
@@ -98,3 +104,6 @@ https://rb.gy/pagyzz
 
 
 Congrats 🎉🎉🎉
+=======
+```
+>>>>>>> parent of f4d197e (Draft of Final):Guide.md
