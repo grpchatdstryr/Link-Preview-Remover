@@ -1,12 +1,9 @@
 
 
 ## Link Preview Remover
-
-<<<<<<< HEAD:01_Guide.md
 This is a guide on how to remove link previews from your favorite apps like Discord, Instagram, and other sites. Since this is at the website level, the link preview checkers cannot tell what website it goes because it uses Javascript to redirect 3 times. This guide is pretty straight forward as long as you have a GitHub account can can create files. 
 
 ### Basic Structure:
-
 Main Folder 
   -  index.html
   -  Redirect1.html
@@ -15,7 +12,6 @@ Main Folder
 
 
 ### High Level Understanding
-
 This code will be hosted as a website using GitHub Pages, then run by going to the first redirect link, then goes through the 3 redirects. 
 
 Main Folder: Location where all files are stored
@@ -25,17 +21,11 @@ Main Folder: Location where all files are stored
   -  Last File: Opens the example website 
 
 
-
 ### First File (index.html)
-=======
-
-
->>>>>>> parent of f4d197e (Draft of Final):Guide.md
 ``` html
 <script>
     window.location.href = 'https://GitHub_Username.github.io/Project_Folder/File.html';
 </script>
-<<<<<<< HEAD:01_Guide.md
 ```
 
 Basics of How it Works
@@ -51,6 +41,7 @@ Basics of How it Works
     window.location.href = 'https://grpchatdstryr.github.io/Link-Preview-Remover/Redirect2.html';
 </script>
 ```
+
 This does the same kind of thing that index.html does. It opens the link to the next redirect page (Redirect2.hmtl)
 
 Just a piece of advice, your code should follow this form. I recommend using Redirect1(2, 3) as it makes it less complicated. 
@@ -74,6 +65,7 @@ This is the last file that redirects to the main website you want. For this exam
 ```
 
 Once you get all the HTML files set up, you will need to set up GitHub Pages. Thankfully the process is quite simple. 
+
 
 ### Setting up GitHub Pages
 
@@ -99,11 +91,8 @@ Then, you can use your favorite link shortener program to make it even more disq
 I personally use Free URL Shortener found here: 
 https://free-url-shortener.rb.gy/
 
-Here is the final product:
+Here is the final product: 
 https://rb.gy/pagyzz
 
 
 Congrats 🎉🎉🎉
-=======
-```
->>>>>>> parent of f4d197e (Draft of Final):Guide.md
