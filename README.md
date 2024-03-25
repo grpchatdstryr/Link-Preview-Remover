@@ -1,7 +1,7 @@
 
 
 ## Link Preview Remover
-This is a guide on how to remove link previews from your favorite apps like Discord, Instagram, and other sites. Since this is at the website level, the link preview checkers cannot tell what website it goes because it uses Javascript to redirect 3 times. This guide is pretty straight forward as long as you have a GitHub account can can create files. 
+This is a guide on how to remove link previews from your favorite apps like Discord, Instagram, and other sites. Since this is at the website level, the link preview checkers cannot tell what website it goes because it uses Javascript to redirect 3 times. This guide is pretty straight forward as long as you have a GitHub account and can create files. 
 
 ### Basic Structure:
 Main Folder 
